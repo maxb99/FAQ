@@ -1,0 +1,43 @@
+header {
+	height: 120px;
+	background: red;
+	display: flex;
+	font-family: 'Marvel', sans-serif;
+	font-weight: bold; 
+}
+
+.wrapper{
+	width: 1000px;
+	height: 100vh;
+	background: green;
+	margin: auto;
+}
+.empty{
+	width: 70%;
+	height: 100%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+	width: 20%;
+	height: 100%;
+}
+li {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	box-sizing: border-box;
+	width: 100%;
+	background: red;
+	padding:  0 20px;
+
+}
+
+.board{
+	height: 30vh;
+	width: 1000px;
+	background: steelblue;
+}
